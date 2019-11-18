@@ -1,0 +1,75 @@
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px 0;
+}
+#numrandom {
+  font-size: 50px;
+  color: red;
+  padding: 20px;
+}
+.colorbox {
+  padding: 20px;
+}
+.colorbox > .color {
+  padding: 5px 20px;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  background: white;
+  transition: background 1s;
+}
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.blue {
+  background: blue;
+}
+.black {
+  background: black;
+}
+.white {
+  background: none;
+}
+.colorbox > .color:hover {
+  color: white;
+}
+.colorbox > .color.r:hover {
+  background: red;
+}
+.colorbox > .color.g:hover {
+  background: green;
+}
+.colorbox > .color.b:hover {
+  background: blue;
+}
+.colorbox > .color.bl:hover {
+  background: black;
+}
+.colorbox > .color.w:hover {
+  background: lightgrey;
+}
+.wrap {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+
+.wrap > .box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  float: left;
+}
+.green {
+  background: green;
+}
+.yellow {
+  background: yellow;
+}
